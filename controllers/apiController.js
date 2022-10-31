@@ -161,7 +161,7 @@ module.exports = {
         },
       };
       const booking = await Booking.create(newBooking);
-      res.status(201).json({ message: "Success Booking", booking });
+      res.status(201).json({ message: "Success Booking" });
     } catch (error) {
       console.log(error);
     }
